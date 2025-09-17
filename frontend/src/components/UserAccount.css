@@ -1,0 +1,70 @@
+.user-account-section {
+  background: #fff;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.account-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.account-form input {
+  width: 100%;
+  padding: 0.75rem;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 1rem;
+}
+
+.account-form button {
+  background: #c59d5f;
+  color: #fff;
+  border: none;
+  padding: 0.75rem 2rem;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.account-form button:hover {
+  background: #a47c3c;
+}
+
+.toggle-link {
+  color: #c59d5f;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.account-info {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.account-menu {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.account-menu button {
+  background: #f8f6f2;
+  border: none;
+  padding: 0.75rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.account-menu button:hover {
+  background: #c59d5f;
+  color: #fff;
+}

@@ -1,0 +1,16 @@
+.location-section {
+  background: #fff;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.map-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.map-address {
+  margin-top: 1rem;
+  color: #333;
+  font-size: 1.1rem;
+}

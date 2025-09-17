@@ -1,0 +1,59 @@
+.packages-section {
+  background: #f8f6f2;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.packages-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.package-options {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.package-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  padding: 1.5rem;
+  min-width: 200px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.package-card input[type="radio"] {
+  margin-bottom: 1rem;
+}
+
+.addon-options {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  padding: 1.5rem;
+  min-width: 200px;
+  margin-top: 1rem;
+}
+
+.addon-card {
+  display: block;
+  margin: 0.5rem 0;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.price-calculator {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  color: #c59d5f;
+}

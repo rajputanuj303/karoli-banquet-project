@@ -1,0 +1,32 @@
+.policies-section {
+  background: #f8f6f2;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.policies-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.policy-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  padding: 1.5rem;
+  max-width: 320px;
+  margin: 1rem 0;
+  text-align: left;
+}
+
+.policy-card h4 {
+  color: #c59d5f;
+  margin-bottom: 0.5rem;
+}
+
+.policy-card p {
+  color: #333;
+  margin: 0;
+}

@@ -1,0 +1,32 @@
+.testimonials-section {
+  background: #f8f6f2;
+  padding: 3rem 0;
+  text-align: center;
+}
+
+.testimonials-list {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  padding: 2rem;
+  max-width: 320px;
+  margin: 1rem 0;
+}
+
+.testimonial-text {
+  font-size: 1.1rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.testimonial-name {
+  font-weight: bold;
+  color: #c59d5f;
+}
